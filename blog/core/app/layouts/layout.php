@@ -66,10 +66,10 @@
         </div>
     </nav>
     <!-- Títol complet -->
-	<div class="full-title">
+	<div class="full-title" style="background-image: url(/web/images/bosc.jpg);  background-repeat: no-repeat; background-size:cover;">
 		<div class="container">
 			<!-- Heading de la web/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">Blog</a>
+			<h1 class="mt-4 mb-3">Blog
 				<small>GR Les Alzines</small>
 			</h1>
 		</div>
