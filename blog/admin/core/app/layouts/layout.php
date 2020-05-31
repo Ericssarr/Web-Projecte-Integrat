@@ -215,16 +215,13 @@ $(document).ready(function(){
         },
         "oAria": {
             "sSortAscending":  ": Activar per ordenar la columna de manera ascendent",
-            "sSortDescending": ": Activar para ordenar la columna de manera descendent"
+            "sSortDescending": ": Activar per ordenar la columna de manera descendent"
         }
     }
         });
       });
     </script>
-    <!-- Optionally, you can add Slimscroll and FastClick plugins.
-          Both of these plugins are recommended to enhance the
-          user experience. Slimscroll is required when using the
-          fixed layout. -->
+
   </body>
 </html>
 

@@ -70,7 +70,7 @@
 		<div class="container">
 			<!-- Heading de la web/Breadcrumbs -->
 			<h1 class="mt-4 mb-3">Blog
-				<small>GR Les Alzines</small>
+				<small style="color: white">GR Les Alzines</small>
 			</h1>
 		</div>
 	</div>
@@ -84,6 +84,7 @@
 				<li class="breadcrumb-item active">Blog</li>
 			</ol>
 		</div>
+		</div>
 
 
 		<div class="container">
@@ -94,6 +95,7 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">Blog</div>
 						<div class="panel-body">
+							
 
 
 							<?php
@@ -104,7 +106,7 @@
 								<div class="container bottom_border">
 									<div class="row">
 										<div class="col-lg-3 col-md-6 col-sm-6 col">
-											<h5 class="headin5_amrc col_white_amrc pt2">Contacte</h5>
+											<h2 class="headin5_amrc col_white_amrc pt2">Contacte</h2>
 											<!--heading footer-->
 											<p class="mb10"><b>Grup de Reforestació Les Alzines</b></p>
 											<p><i class="fa fa-location-arrow"></i> Can Dània
@@ -114,7 +116,7 @@
 												<p><i class="fa fa fa-envelope"></i> grlesalzines@gmail.com </p>
 										</div>
 										<div class="col-lg-3 col-md-6 col-sm-6 col">
-											<h5 class="headin5_amrc col_white_amrc pt2">Segueix-nos</h5>
+											<h2 class="headin5_amrc col_white_amrc pt2">Segueix-nos</h2>
 											<!--heading footer acaba aquí-->
 											<ul class="footer_ul2_amrc">
 												<li>
@@ -133,7 +135,7 @@
 
 										</div>
 										<div class="col-lg-3 col-md-6 col-sm-6">
-											<h5 class="headin5_amrc col_white_amrc pt2">Enllaços rápids</h5>
+											<h2 class="headin5_amrc col_white_amrc pt2">Enllaços rápids</h2>
 
 											<ul class="footer_ul_amrc">
 												<li><a href="/web/index.html">Inici </a></li>
@@ -141,6 +143,7 @@
 												<li><a href="/web/lareforestacio.html">El Per Qué de Tot Plegat</a></li>
 												<li><a href="/web/galeria.html">Galeria de Fotos</a></li>
 												<li><a href="/web/contacte.html">Contacta</a></li>
+												<li><a href="/web/blog/?view=blog">Blog</a></li>
 											</ul>
 
 										</div>
