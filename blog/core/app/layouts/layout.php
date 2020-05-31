@@ -84,90 +84,96 @@
 				<li class="breadcrumb-item active">Blog</li>
 			</ol>
 		</div>
-		</div>
+	</div>
 
 
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
 
 
-					<div class="panel panel-default">
-						<div class="panel-heading">Blog</div>
-						<div class="panel-body">
-							
+				<div class="panel panel-default">
+					<div class="panel-heading">Blog</div>
+					<div class="panel-body">
+						<?php
+						View::load("index");
+						?>
+					</div>
+				</div>
+				<br><br><br><br><br>
 
+				<!--footer comença aqui-->
+				<footer class="footer">
+					<div class="container bottom_border">
+						<div class="row">
+							<div class="col-lg-3 col-md-6 col-sm-6 col">
+								<br><br><br><br>
+								<a href="#"><img src="/web/images/logoa.jpg" height="120" width="120" alt="" /></a>
+							</div>
 
-							<?php
-							View::load("index");
-							?>
-							<!--footer comença aqui-->
-							<footer class="footer">
-								<div class="container bottom_border">
-									<div class="row">
-										<div class="col-lg-3 col-md-6 col-sm-6 col">
-											<h2 class="headin5_amrc col_white_amrc pt2">Contacte</h2>
-											<!--heading footer-->
-											<p class="mb10"><b>Grup de Reforestació Les Alzines</b></p>
-											<p><i class="fa fa-location-arrow"></i> Can Dània
-												<p>Camí d'Altafulla (costat Centre d'Equitació)</p>
-												<p>Torredembarra</p>
-												<p><i class="fa fa-phone"></i> 677 09 34 30</p>
-												<p><i class="fa fa fa-envelope"></i> grlesalzines@gmail.com </p>
-										</div>
-										<div class="col-lg-3 col-md-6 col-sm-6 col">
-											<h2 class="headin5_amrc col_white_amrc pt2">Segueix-nos</h2>
-											<!--heading footer acaba aquí-->
-											<ul class="footer_ul2_amrc">
-												<li>
-													<a href="#"><i class="fab fa-facebook-f fleft padding-right"></i> </a>
-													<p><a href="https://www.facebook.com/grlesalzines" target="_blank">Facebook</a></p>
-												</li>
-												<li>
-													<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-													<a href="https://twitter.com/grlesalzines" target="_blank">Twitter</a></p>
-												</li>
-												<li>
-													<a href="#"><i class="fab fa-instagram fleft padding-right"></i> </a>
-													<p><a href="https://www.instagram.com/grles_alzines/" target="_blank">Instagram</a></p>
-												</li>
-											</ul>
+							<div class="col-lg-3 col-md-6 col-sm-6 col">
+								<h5 class="headin5_amrc col_white_amrc pt2">Contacte</h5>
+								<!--heading del footer-->
+								<p class="mb10"><b>Grup de Reforestació Les Alzines</b></p>
+								<p><i class="fa fa-location-arrow"></i> Can Dània
+									<p>Camí d'Altafulla (costat Centre d'Equitació)</p>
+									<p>Torredembarra</p>
+									<p><i class="fa fa-phone"></i> 677 09 34 30</p>
+									<p><i class="fa fa fa-envelope"></i> grlesalzines@gmail.com </p>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 col">
+								<h5 class="headin5_amrc col_white_amrc pt2">Segueix-nos</h5>
+								<!--heading del footer acaba aqui-->
+								<ul class="footer_ul2_amrc">
+									<li>
+										<a href="#"><i class="fab fa-facebook-f fleft padding-right"></i> </a>
+										<p><a href="https://www.facebook.com/grlesalzines" target="_blank">Facebook</a></p>
+									</li>
+									<li>
+										<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+										<a href="https://twitter.com/grlesalzines" target="_blank">Twitter</a></p>
+									</li>
+									<li>
+										<a href="#"><i class="fab fa-instagram fleft padding-right"></i> </a>
+										<p><a href="https://www.instagram.com/grles_alzines/" target="_blank">Instagram</a></p>
+									</li>
+								</ul>
 
-										</div>
-										<div class="col-lg-3 col-md-6 col-sm-6">
-											<h2 class="headin5_amrc col_white_amrc pt2">Enllaços rápids</h2>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6">
+								<h5 class="headin5_amrc col_white_amrc pt2">Enllaços rápids</h5>
 
-											<ul class="footer_ul_amrc">
-												<li><a href="/web/index.html">Inici </a></li>
-												<li><a href="/web/quisom.html">Qui Som?</a></li>
-												<li><a href="/web/lareforestacio.html">El Per Qué de Tot Plegat</a></li>
-												<li><a href="/web/galeria.html">Galeria de Fotos</a></li>
-												<li><a href="/web/contacte.html">Contacta</a></li>
-												<li><a href="/web/blog/?view=blog">Blog</a></li>
-											</ul>
+								<ul class="footer_ul_amrc">
+									<li><a href="index.html">Inici </a></li>
+									<li><a href="about.html">Qui Som?</a></li>
+									<li><a href="lareforestacio.html">El Per Qué de Tot Plegat</a></li>
+									<li><a href="galeria.html">Galeria de Fotos</a></li>
+									<li><a href="contacte.html">Contacta</a></li>
+									<li><a href="/web/blog/?view=blog">Blog</a></li>
+								</ul>
 
-										</div>
-									</div>
-									<div class="container">
-										<div class="footer-logo">
-											<a href="#"><img src="/web/images/logoa.jpg" height="120" width="120" alt="" /></a>
-										</div>
+							</div>
+						</div>
+						<br>
 
-										<p class="copyright text-center">All Rights Reserved. &copy; 2020 <a href="#">GR Les Alzines</a> Design By : Ericssarr</p>
-										<ul class="social_footer_ul">
-											<li><a href="https://www.facebook.com/grlesalzines" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-											<li><a href="https://twitter.com/grlesalzines" target="_blank"><i class="fab fa-twitter"></i></a></li>
-											<li><a href="https://www.instagram.com/grles_alzines/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-										</ul>
+						<p class="copyright text-center">All Rights Reserved. &copy; 2020 <a href="#">GR Les Alzines</a> Design By :
+							Ericssarr</p>
+						<ul class="social_footer_ul">
+							<li><a href="https://www.facebook.com/grlesalzines" target="_blank"><i class="fab fa-facebook-f"></i></a>
+							</li>
+							<li><a href="https://twitter.com/grlesalzines" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/grles_alzines/" target="_blank"><i class="fab fa-instagram"></i></a>
+							</li>
+						</ul>
 
-									</div>
-							</footer>
+					</div>
+					<div></div>
+				</footer>
 
-							<!-- Bootstrap nucli i JavaScript -->
-							<script src="/web/jquery-bootstrap/jquery/jquery.min.js"></script>
-							<script src="/web/jquery-bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
-</body>
-<?= Html::script('res/bootstrap/js/bootstrap.min.js'); ?>
+				<!-- Bootstrap i Jquery -->
+				<script src="/web/jquery-bootstrap/jquery/jquery.min.js"></script>
+				<script src="/web/jquery-bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+				<?= Html::script('res/bootstrap/js/bootstrap.min.js'); ?>
 </body>
 
 </html>

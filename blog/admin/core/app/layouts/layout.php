@@ -47,7 +47,7 @@ $(document).ready(function(){
         <!-- Logo -->
         <a href="./" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>B</b>L</span>
+          <span class="logo-mini"><b>A</b>B</span>
           <!-- logo for regular state and mobile devices -->
           <span class="logo-lg"><b>GR LES ALZINES</b></span>
         </a>
@@ -169,6 +169,7 @@ $(document).ready(function(){
         </form>
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->  
+    
     <?php endif;?>
 
      <?php endif;?>

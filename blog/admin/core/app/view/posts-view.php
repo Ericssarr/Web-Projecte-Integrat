@@ -201,7 +201,7 @@ Editar
 
 
 		}else{
-			echo "<p class='alert alert-danger'>No hay Articulos</p>";
+			echo "<p class='alert alert-danger'>No hi ha cap article!</p>";
 		}
 
 

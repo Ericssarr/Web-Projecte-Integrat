@@ -31,7 +31,7 @@ Nova Categoria
 
   <div class="form-group">
     <div class="col-lg-offset-2 col-lg-10">
-      <button type="submit" class="btn btn-primary">Agregar Categoria</button>
+      <button type="submit" class="btn btn-primary">Afegir Categoria</button>
     </div>
   </div>
 </form>
@@ -101,7 +101,7 @@ Editar
   <div class="form-group">
     <div class="col-lg-offset-2 col-lg-10">
     <input type="hidden" name="user_id" value="<?php echo $user->id;?>">
-      <button type="submit" class="btn btn-primary">Actualtizar Categria</button>
+      <button type="submit" class="btn btn-primary">Actualitzar Categria</button>
     </div>
   </div>
 </form>

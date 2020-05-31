@@ -8,19 +8,19 @@
 
 
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Nombre*</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Nom*</label>
     <div class="col-md-6">
       <input type="text" name="name" value="<?php echo $user->name;?>" class="form-control" id="name" placeholder="Nombre">
     </div>
   </div>
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Apellido*</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Cognom*</label>
     <div class="col-md-6">
       <input type="text" name="lastname" value="<?php echo $user->lastname;?>" required class="form-control" id="lastname" placeholder="Apellido">
     </div>
   </div>
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Nombre de usuario*</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Nom de usuari*</label>
     <div class="col-md-6">
       <input type="text" name="username" value="<?php echo $user->username;?>" class="form-control" required id="username" placeholder="Nombre de usuario">
     </div>
@@ -41,7 +41,7 @@
   </div>
 
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label" >Esta activo</label>
+    <label for="inputEmail1" class="col-lg-2 control-label" >Esta actiu</label>
     <div class="col-md-6">
 <div class="checkbox">
     <label>
@@ -63,12 +63,12 @@
     </div>
   </div>
 
-  <p class="alert alert-info">* Campos obligatorios</p>
+  <p class="alert alert-info">* Camps obligatoris</p>
 
   <div class="form-group">
     <div class="col-lg-offset-2 col-lg-10">
     <input type="hidden" name="user_id" value="<?php echo $user->id;?>">
-      <button type="submit" class="btn btn-primary">Actualizar Usuario</button>
+      <button type="submit" class="btn btn-primary">Actualitzar Usuari</button>
     </div>
   </div>
 </form>
