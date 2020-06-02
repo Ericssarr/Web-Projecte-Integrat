@@ -11,19 +11,19 @@
 	<meta name="author" content="">
 	<title>Blog - Noticies i esdeveniments</title>
 	<!-- Bootstrap core CSS -->
-	<link href="/web/jquery-bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../jquery-bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Fontawesome CSS -->
-	<link href="/web/css/all.css" rel="stylesheet">
+	<link href="../css/all.css" rel="stylesheet">
 	<!-- Estils css -->
-	<link href="/web/css/style.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Navegació -->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="/web/index.html">
-				<img src="/web/images/logoa.jpg" width="60" height="60" alt="logo" />
+			<a class="navbar-brand" href="../index.html">
+				<img src="../logoa.jpg" width="60" height="60" alt="logo" />
 			</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fas fa-bars"></span>
@@ -31,31 +31,31 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="/web/index.html">Inici</a>
+						<a class="nav-link" href="../index.html">Inici</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/web/about.html">Qui som?</a>
+						<a class="nav-link" href="../about.html">Qui som?</a>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							El per què de tot plegat
 						</a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-							<a class="dropdown-item" href="/web/lareforestacio.html">La Reforestació</a>
-							<a class="dropdown-item" href="/web/elviverismeforestal.html">El Viverisme Forestal</a>
-							<a class="dropdown-item" href="/web/elcanviclimatic.html">El Canvi Climàtic</a>
-							<a class="dropdown-item" href="/web/lalzina.html">L'Alzina</a>
-							<a class="dropdown-item" href="/web/petjadaecologica.html">La Petjada Ecològica A Catalunya</a>
+							<a class="dropdown-item" href="../lareforestacio.html">La Reforestació</a>
+							<a class="dropdown-item" href="../elviverismeforestal.html">El Viverisme Forestal</a>
+							<a class="dropdown-item" href="../elcanviclimatic.html">El Canvi Climàtic</a>
+							<a class="dropdown-item" href="../lalzina.html">L'Alzina</a>
+							<a class="dropdown-item" href="../petjadaecologica.html">La Petjada Ecològica A Catalunya</a>
 						</div>
 
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/web/calendari.html">Calendari d'Esdeveniments</a>
+						<a class="nav-link" href="../calendari.html">Calendari d'Esdeveniments</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/web/galeria.html">Galeria de fotos</a>
+						<a class="nav-link" href="../galeria.html">Galeria de fotos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/web/contacte.html">Contacta</a>
+						<a class="nav-link" href="../contacte.html">Contacta</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link active" href="#">Blog</a>
@@ -66,7 +66,7 @@
 		</div>
 	</nav>
 	<!-- Títol complet -->
-	<div class="full-title" style="background-image: url(/web/images/bosc.jpg);  background-repeat: no-repeat; background-size:cover;">
+	<div class="full-title" style="background-image: url(../bosc.jpg);  background-repeat: no-repeat; background-size:cover;">
 		<div class="container">
 			<!-- Heading de la web/Breadcrumbs -->
 			<h1 class="mt-4 mb-3">Blog
@@ -108,7 +108,7 @@
 						<div class="row">
 							<div class="col-lg-3 col-md-6 col-sm-6 col">
 								<br><br><br><br>
-								<a href="#"><img src="/web/images/logoa.jpg" height="120" width="120" alt="" /></a>
+								<a href="#"><img src="../logoa.jpg" height="120" width="120" alt="" /></a>
 							</div>
 
 							<div class="col-lg-3 col-md-6 col-sm-6 col">
@@ -144,12 +144,12 @@
 								<h5 class="headin5_amrc col_white_amrc pt2">Enllaços rápids</h5>
 
 								<ul class="footer_ul_amrc">
-									<li><a href="index.html">Inici </a></li>
-									<li><a href="about.html">Qui Som?</a></li>
-									<li><a href="lareforestacio.html">El Per Qué de Tot Plegat</a></li>
-									<li><a href="galeria.html">Galeria de Fotos</a></li>
-									<li><a href="contacte.html">Contacta</a></li>
-									<li><a href="/web/blog/?view=blog">Blog</a></li>
+									<li><a href="../index.html">Inici </a></li>
+									<li><a href="../about.html">Qui Som?</a></li>
+									<li><a href="../lareforestacio.html">El Per Qué de Tot Plegat</a></li>
+									<li><a href="../galeria.html">Galeria de Fotos</a></li>
+									<li><a href="../contacte.html">Contacta</a></li>
+									<li><a href="../blog/?view=blog">Blog</a></li>
 								</ul>
 
 							</div>
@@ -171,8 +171,8 @@
 				</footer>
 
 				<!-- Bootstrap i Jquery -->
-				<script src="/web/jquery-bootstrap/jquery/jquery.min.js"></script>
-				<script src="/web/jquery-bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+				<script src="..jquery-bootstrap/jquery/jquery.min.js"></script>
+				<script src="..jquery-bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
 				<?= Html::script('res/bootstrap/js/bootstrap.min.js'); ?>
 </body>
 
